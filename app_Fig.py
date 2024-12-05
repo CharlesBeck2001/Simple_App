@@ -10,7 +10,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv('/Users/charlesbeck/VS_Data/bquxjob_1398a98e_1939337331a.csv')
+data = pd.read_csv('bquxjob_1398a98e_1939337331a.csv')
 # Streamlit App
 st.title("Log Volume vs Percentage of Total Volume")
 
